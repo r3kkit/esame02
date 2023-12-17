@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif; color: #941298;
+}
+h1#inizio{
+    visibility: hidden;
+    position: absolute;
+}
+div.menu{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0; 
+    background: #9412984c;
+}
+img#logoss{
+    height: 60px;
+}
+li{
+    display: inline-flex;
+    
+}
+a#form{
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+img#foto-lavoro{
+    width: 50%;
+    height: auto;
+}
+div.progetto{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin: 0;
+}
+div.testo-progetto{
+    text-align: left;
+    margin-top: 50px;
+    padding-left: 10px;
+}
+h1{
+    text-align: center;
+}
+section#scatola{
+    flex: auto;
+    width: 100%;
+    height: 100%;
+}

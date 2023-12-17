@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homepage</title>
+    <link rel="stylesheet" href="homepage-real.css">
+</head>
+<body>
+    <header class="header">
+        <!--barra di menù-->
+        <h1 id="inizio">inizio</h1>
+        <div class="menu">
+            <a href="#inizio"><img src="logo-a-colori.png" alt="home" id="logoss"></a>
+            <ul>
+                <li><a href="#about-me" id="about-me-menu">About me</a></li> 
+                <li></li>
+                <li><a href="#gettonati" id="progetti-menu">Progetti</a></li>
+                <li></li>
+                <li><a href="#scrivimi" id="form">Scrivimi</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <!--intro pagina-->
+        <div class="intro-pagina">
+            <video src="video-background.mp4" autoplay muted loop preload="auto"></video>
+            <div class="contenuto-intro">
+                <h1 id="presentazione">Ciao io sono Mattia <br>
+                    il tuo futuro web developer</h1>    
+            </div>
+        </div>
+        <!--sezione about me-->
+        <div class="about-me">
+            <img src="immagine-per-progetti.jpeg" alt="decor" id="immagine-per-progetti">
+            <div class="about-me-content">
+                <h1 id="about-me">About me</h1>
+                <p id="testo-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ullam illum odit maiores
+                earum soluta molestias quia nulla distinctio magni nostrum minima corporis porro quidem, 
+                itaque commodi. Nemo, accusantium quae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus qui est odit facere 
+                nostrum voluptatem fuga fugit facilis blanditiis! Corporis rerum quaerat temporibus cum quisquam at quo error molestias reiciendis!</p>
+            </div>
+        </div>
+        <!--servizi offerti-->
+        <section class="servizi">
+            <div>
+                <div><h1>Cosa ofrriamo</h1></div>
+                <div class="testo-servizi">
+                    <p>Servizi di preventivo in 24h</p>
+                    <p>Lavori di ottima fattura</p>
+                    <p>Personalizzazione del sito con il cliente</p>
+                    <p>Possibilità di managing del sito 24h</p>
+                    <p>Esperienza pluriennale da parte dei nostri dipendenti</p>
+                    <p>Esupport disponibile 365giorni l'anno</p>
+                </div>
+            </div>
+        </section>
+        <!--sezione link progetti-->
+        <div class="zona-progetti">
+            <div>
+                <h1 id="gettonati">I progetti più gettonati</h1>
+                <div class="links">
+                    <a href="progetto-real.html" id="primo-link" ><img src="immagine-link.jpg" class="immagine-lonk" alt="link"></a>       
+                    <a href="progetto-real.html" class="linkss"><img src="immagine-link.jpg" class="immagine-lonk" alt="link"></a>
+                    <a href="progetto-real.html"><img src="immagine-link.jpg" class="immagine-lonk" alt="link"></a>
+                    <a href="progetto-real.html" class="linkss"><img src="immagine-link.jpg" class="immagine-lonk" alt="link"></a>
+                    <a href="progetto-real.html"><img src="immagine-link.jpg" class="immagine-lonk" alt="link"></a>
+                </div>
+                <!--sezione testi dei progetti-->
+            </div>
+            <div class="testo-progetti">
+                <p class="testo-centrale">Lorem ipsum dolor sit amet adipisicing elit.vel ullam fugiat numquam recusandae
+                    quos consequatur alias porro, nam ab molestiae eum id odio animi, accusamus deleniti aut?</p>
+                <p class="testo-centrale">Lorem ipsum dolor sit amet adipisicing elit.vel ullam fugiat numquam recusandae
+                    quos consequatur alias porro, nam ab molestiae eum id odio animi, accusamus deleniti aut?</p>
+                <p class="testo-centrale">Lorem ipsum dolor sit amet adipisicing elit.vel ullam fugiat numquam recusandae
+                    quos consequatur alias porro, nam ab molestiae eum id odio animi, accusamus deleniti aut?</p>
+                <p class="testo-centrale">Lorem ipsum dolor sit amet adipisicing elit.vel ullam fugiat numquam recusandae
+                    quos consequatur alias porro, nam ab molestiae eum id odio animi, accusamus deleniti aut?</p>
+                <p class="testo-centrale">Lorem ipsum dolor sit amet adipisicing elit.vel ullam fugiat numquam recusandae
+                    quos consequatur alias porro, nam ab molestiae eum id odio animi, accusamus deleniti aut?</p>
+                                            
+            </div>
+        </div>
+    </main>
+<footer>
+    <!--form e contatti-->
+    <section class="finale">
+        <div class="preventivo-titolo">
+            <h1 id="titolo-preventivo">Lasciami i tuoi dati e ricevi un preventivo</h1>
+        </div>
+        <div class="testo-preventivo">
+            <h2 id="scrivimi-tu">Oppure contattami tu:</h2>
+            <div class="indirizzi">
+                <address>
+                    <a href="+393338655418" id="telefono">telefono</a> <br>
+                    <a href="mailto:rbosio6@gmail.com" id="email">email</a>
+                </address>
+                <address class="indirizzo-mio">
+                    Indirizzo della sede: <br>
+                    Voc. San't Eugenia n.10 <br>
+                    Magliano Sabina (ri) <br>
+                    02046 <br>
+                    <a href="#inizio" id="torna-su">Torna al menù principale</a>
+                </address>
+            </div>
+        </div>
+        <div class="dati-form">
+            <form action="salva-user.php" class="decor" id="scrivimi" method="post">
+                <div class="form-inner">
+                   <placeholder><input name="dati" type="text" placeholder="Nome e cognome">
+                    <input name="telefono" type="tel" placeholder="Telefono">
+                    <input name="email" type="email" placeholder="Email"></placeholder>
+                    <textarea name="messaggio" placeholder="Messaggio..." rows="1"></textarea>
+                    <button type="submit">Invia</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</footer>   
+</body>
+
+</html>

@@ -1,0 +1,243 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #941298;
+}
+
+h1#inizio {
+  visibility: hidden;
+  position: absolute;
+}
+
+div.menu {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  background: #9412984c;
+}
+
+img#logoss {
+  height: 60px;
+}
+
+li {
+  display: inline-flex;
+}
+
+a#about-me-menu {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a#progetti-menu {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a#form {
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+div.contenuto-intro {
+  position: absolute;
+  color: #941298;
+  text-align: left;
+  margin-top: -300px;
+}
+
+h1#presentazione {
+  line-height: 1.1;
+  padding: 10px;
+}
+
+div.about-me {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+div.about-me-content {
+  text-align: center;
+  padding: 3%;
+  overflow: scroll;
+}
+section.servizi{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  list-style: none;
+  flex-wrap: wrap;
+}
+div.testo-servizi{
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+img#immagine-per-progetti {
+  width: 200%;
+  height: auto;
+}
+
+div.links {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+img.immagine-lonk {
+  height: 200px;
+  width: auto;
+}
+
+div.testo-progetti {
+  display: inline-flex;
+  justify-content: space-between;
+  flex-flow: row;
+  overflow: scroll;
+}
+
+p.testo-centrale {
+  height: 50px;
+  width: auto;
+}
+
+div.preventivo-titolo {
+  display: inline-flex;
+  justify-content: space-between;
+  flex-flow: row;
+}
+
+h1#titolo-preventivo {
+  color: #941298;
+  margin-top: 60px;
+}
+
+div.testo-preventivo {
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: column;
+  text-align: right;
+}
+
+div.indirizzi {
+  text-align: end;
+}
+
+a#telefono {
+  text-decoration: none;
+  color: black;
+}
+
+a#email {
+  text-decoration: none;
+  color: black;
+}
+
+address.indirizzo-mio {
+  color: black;
+}
+
+a#torna-su {
+  color: #941298;
+  font-size: x-large;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form {
+  min-height: 100px;
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  color: #941298;
+}
+
+input, textarea {
+  outline: none;
+}
+
+h1#form {
+  margin-top: 0;
+  font-weight: 500;
+}
+
+form {
+  margin-left: 300px;
+  width: 100px;
+  border-radius: 30px;
+}
+
+.form-inner {
+  padding: 40px;
+}
+
+.form-inner input,
+.form-inner textarea {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 20px;
+  background: #e8e8e8;
+}
+
+.form-inner textarea {
+  resize: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: none;
+  border-bottom: 0px solid;
+  color: #000000;
+  background: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  color: #941298;
+  border-color: #941298;
+}
+
+button:hover {
+  background: #941298;
+  color: #ffffff;
+  border-color: #ffffff;
+  border-width: 2px;
+}
+
+form {
+  width: 500px;
+  height: 350px;
+  margin-left: 80px;
+  margin-top: -280px;
+  background-color: #941298;
+}
+
+div.dati-form {
+  margin-top: 100px;
+  margin-left: -30px;
+  display: flex;
+  flex-flow: row;
+}
